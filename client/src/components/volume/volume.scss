@@ -1,0 +1,11 @@
+.sound {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  @media screen and (max-width: 800px){
+    display: none;
+  }
+}
+.vol{
+    margin: 3px
+}

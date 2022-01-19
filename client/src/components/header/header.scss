@@ -1,0 +1,18 @@
+.header {
+  display: flex;
+  grid-area: 1/ 2/ 2/ 3;
+  background-color: #181818;
+  justify-content: flex-end;
+  align-items: center;
+  @media screen and (max-width: 800px) {
+    display: none;
+  }
+}
+.user-btn {
+  border: none;
+  background-color: #333333;
+  border-radius: 50%;
+  color: white;
+  padding: 3px;
+  margin-right: 2em;
+}

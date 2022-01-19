@@ -1,0 +1,69 @@
+.search-page {
+  grid-area: 2/ 2/ 3/ 3;
+  background-color: #181818;
+  overflow-y: auto;
+  scrollbar-width: thin;
+  h2{
+    color: white;
+    margin-left: 25px;
+  }
+  @media screen and (max-width: 800px) {
+    grid-area: 1 / 1/ 2 /1;
+
+    .search-artist{
+      margin-top: 10vh;
+    }
+  }
+}
+.search-box {
+  position: absolute;
+  z-index: 1;
+  top: 2%;
+  left: 13%;
+
+  .search-box-icon {
+    position: relative !important;
+    left: 30px !important;
+    top: 9px;
+  }
+  ::placeholder {
+    margin-left: 40px !important;
+  }
+  :focus-visible {
+    outline: none;
+  }
+}
+.search-box input {
+  background-color: white;
+  border: 1px solid #fff;
+  box-shadow: none;
+  border-radius: 40px;
+  padding: 10px;
+  padding-left: 40px;
+}
+
+.search-result{
+  display: flex;
+  background-color: #181818;
+  align-items: center;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  overflow-y: auto;
+  scrollbar-width: thin;
+  gap: 25px;
+  margin-left: 25px;
+  margin-bottom: 24%;
+}
+
+.artist-result{
+  display: flex;
+  background-color: #181818;
+  align-items: center;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  overflow-y: auto;
+  scrollbar-width: thin;
+  gap:25px;
+  margin-left: 25px;
+}
+

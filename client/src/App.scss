@@ -1,0 +1,22 @@
+.app {
+  display: grid;
+  grid-template: 10vh 80vh 10vh/ 12vw 88vw;
+  @media screen and (max-width: 1400px){
+    grid-template: 10vh 80vh 10vh/ 20vw 80vw;
+  }
+
+  @media screen and (max-width: 800px) {
+    grid-template: 80vh 10vh 10vh/ 100vw;
+    width: 100vw;
+    overflow-x: hidden;
+  }
+}
+* {
+  box-sizing: border-box;
+  user-select: none;
+}
+a {
+  text-decoration: none;
+  color: white;
+  padding: 0;
+}

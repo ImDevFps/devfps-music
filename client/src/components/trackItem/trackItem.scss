@@ -1,0 +1,26 @@
+.track-item{
+    display: grid;
+    grid-template-columns: 75% 25%;
+    margin: 10px 20px;
+    color: white;
+
+    .track-item-song{
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    .track-item-id{
+        margin: 0 10px;
+    }
+    img{
+        width: 66px;
+        border-radius: 5px;
+        margin: 0 10px;
+    }
+    .track-item-time{
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    }
+}

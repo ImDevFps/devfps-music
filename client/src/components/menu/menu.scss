@@ -1,0 +1,15 @@
+.menu {
+  display: flex;
+  grid-area: 2/ 2/ 3/ 3;
+  background-color: #181818;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  overflow-y: auto;
+  scrollbar-width: thin;
+  gap: 25px;
+  @media screen and (max-width: 800px) {
+    grid-area: 1/ 1/ 2 / 1;
+    margin-top: 5vh;
+  }
+}

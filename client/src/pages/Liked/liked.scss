@@ -1,0 +1,117 @@
+.liked-page {
+  display: flex;
+  flex-direction: column;
+  background-color: #181818;
+  overflow-y: scroll;
+}
+.liked-banner {
+  max-height: 25%;
+  display: flex;
+  flex-direction: row;
+  color: white;
+  align-items: flex-end;
+  justify-content: flex-start;
+  width: 100%;
+  gap: 20px;
+  @media screen and (max-width: 800px) {
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(125deg , #2f38b1, #a7b8af);
+    min-height: 15vh;
+  }
+}
+.liked-logo {
+  background: linear-gradient(135deg, #450af5, #c4efd9);
+  font-size: 50px !important;
+  padding: 3.2rem;
+  border-radius: 2px;
+  margin-left: 20px;
+  @media screen and (max-width: 800px) {
+    display: none;
+  }
+}
+.liked-page-like {
+  font-size: 70px !important;
+}
+.liked-playlist {
+  display: block;
+  margin-bottom: -12px;
+  font-size: 13px;
+  font-weight: 600;
+  @media screen and (max-width: 800px) {
+    display: none;
+  }
+}
+.liked-likedSongs {
+  display: block;
+  font-size: 4.5rem;
+  font-weight: 800;
+  @media screen and (max-width: 800px) {
+    font-size: 16px;
+    font-weight: 500;
+  }
+}
+.liked-user {
+  font-size: 0.95em;
+  font-weight: 700;
+  @media screen and (max-width: 800px) {
+    display: none;
+  }
+}
+.liked-songs {
+  font-weight: 300;
+  font-size: 0.85em;
+  @media screen and (max-width: 800px) {
+    display: none;
+  }
+}
+.liked-songs-playlist {
+  color: rgb(223, 219, 219) !important;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  margin: 20px 20px;
+  
+}
+.liked-songs-playlist-header {
+  width: 100%;
+  height: 40px;
+  display: grid;
+  grid-template-columns: 40% 30% 30%;
+  justify-content: space-between;
+  border-bottom: 1px solid darkgrey;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 300;
+  align-items: center;
+
+  @media screen and (max-width: 800px) {
+    display: none;
+  }
+
+  .title {
+    display: flex;
+    justify-content: flex-start;
+    font-size: 15px;
+    font-weight: 400;
+    text-transform: uppercase;
+
+    .title-id {
+      margin: 0 15px 0 10px;
+    }
+  }
+  .date-added{
+    display: flex;
+    justify-content: center;
+  }
+
+  .duration-parent{
+    display: flex;
+    justify-content: flex-end;
+
+    .duration {
+      font-size: 20px !important;
+    }
+  }
+}

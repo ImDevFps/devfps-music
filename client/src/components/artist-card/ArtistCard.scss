@@ -1,0 +1,20 @@
+.main-card-artist{
+    background-color: #121212;
+    padding: 20px 15px;
+    border-radius: 2%;
+    width: 210px;
+    margin-bottom: 20px;
+}
+
+.music-card-artist {
+  background-color: #121212 !important;
+  box-shadow: none !important;
+
+  .artist-res {
+    font-weight: 600;
+  }
+
+  img {
+    border-radius: 50%;
+  }
+}

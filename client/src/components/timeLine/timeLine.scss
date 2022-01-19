@@ -1,0 +1,10 @@
+@media screen and (max-width: 800px) {
+  .time {
+    display: none;
+  }
+  @media (pointer: coarse) {
+    .css-r5lsqg-MuiSlider-root {
+      padding: 5px 0 !important;
+    }
+  }
+}

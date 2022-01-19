@@ -1,0 +1,4 @@
+export const LikedActionTypes = {
+    ADD_SONG_TO_LIKED: 'ADD_SONG_TO_LIKED',
+    REMOVE_SONG_FROM_LIKED: 'REMOVE_SONG_FROM_LIKED'
+}

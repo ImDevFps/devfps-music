@@ -1,0 +1,140 @@
+.controls {
+  display: grid;
+  grid-template-columns: 25% 40% 10%;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 16px;
+  height: 100%;
+  color: white;
+  @media screen and (max-width: 800px) {
+    grid-template-columns: 85% 15%;
+    padding: 5px 16px;
+    min-height: 60px;
+  }
+}
+.img {
+  min-width: 100%;
+  width: 30%;
+  display: flex;
+  vertical-align: baseline;
+  @media screen and (max-width: 800px) {
+    width: 100%;
+  }
+}
+.song-data {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  position: relative;
+  -webkit-box-align: center;
+  align-items: center;
+  @media screen and (max-width: 800px) {
+    width: 100%;
+    svg {
+      margin-left: auto;
+    }
+  }
+}
+.img img {
+  width: 66px;
+  height: 66px;
+  @media screen and (max-width: 800px) {
+    width: 50px;
+    height: 50px;
+  }
+}
+
+.music-info {
+  display: flex;
+  flex-direction: column;
+  padding-left: 12px;
+  gap: 3px;
+  @media screen and (max-width: 800px) {
+    flex-direction: row;
+
+    .title {
+      font-size: 12px;
+      font-weight: 400;
+    }
+  }
+}
+.title {
+  font-size: 16px;
+  font-weight: 600;
+}
+.artist {
+  font-size: 11px;
+  font-weight: 200;
+}
+.like {
+  margin-left: 20px;
+  font-size: 18px !important;
+  font-weight: 200;
+  cursor: pointer;
+}
+.dislike {
+  color: #29c953;
+  margin-left: 20px;
+  font-size: 18px !important;
+  font-weight: 200;
+  cursor: pointer;
+}
+.actions {
+  display: flex;
+  align-items: center;
+}
+.song-actions {
+  font-size: 35px !important;
+}
+.song-actions:hover {
+  font-size: 38px !important;
+}
+.song-prev,
+.song-next {
+  color: rgb(196, 195, 195);
+  font-size: 25px !important;
+  @media screen and (max-width: 800px) {
+    display: none !important;
+  }
+}
+.song-next:hover,
+.song-prev:hover {
+  color: white;
+}
+
+.actions {
+  display: flex;
+  justify-content: center;
+  height: 25px;
+}
+.middle-footer {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+  justify-content: center;
+}
+.timeline {
+  font-size: 10px;
+  gap: 15px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-weight: 200;
+  @media screen and (max-width: 800px) {
+    position: absolute;
+    width: 100vw;
+    top: -13%;
+    left: 0;
+    height: 10px
+  }
+}
+.spinner {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 20px;
+  align-items: center;
+}
+.timeline-slider {
+  background-color: red;
+}

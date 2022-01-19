@@ -1,0 +1,7 @@
+export const PlayerActionTypes = {
+  ADD_SONG: 'ADD_SONG',
+  CLEAR_SONG: 'CLEAR_SONG',
+  FORCE: 'FORCE',
+  CLEAR_IDX: 'CLEAR_IDX',
+  TOGGLE_MINI_PLAYER : 'TOGGLE_MINI_PLAYER'
+};
