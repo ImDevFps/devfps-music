@@ -9,6 +9,7 @@ import LikedPage from './pages/Liked/liked';
 import Search from './pages/search/Search';
 
 const App = () => {
+  
   return (
     <div className='app'>
       <Navbar />
